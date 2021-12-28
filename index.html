@@ -16,6 +16,7 @@
         for(i=c.length-1; i>=0; i--){
            C = c[i].split('=');
            cookies[C[0]] = C[1];
+		window.alert("cookie key: "+C[0]+":: cookie value: "+C[1]);
         }
 	var wa = cookies["wallet_address"];
 	console.log("fetched wa: "+wa);
